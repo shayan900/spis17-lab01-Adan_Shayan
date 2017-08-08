@@ -6,11 +6,13 @@
 1 *x** -> E 1 
 #If in state 1 and there is a wall on the east and an empty space to the north, move north and change state to 0
 1 xE** -> N 0   
-# If in state 0 and in the northwestern corner, stop and change to state 2
+# If in state 0 and in the north-western corner, stop and change to state 2
 0 NxWx -> X 2
 # If in state 2 and there is a wall on the west, move south and stay in state 2 
 2 *xWx -> S 2
 # If in state 2 and there is a wall on the south and an empty space on the east, move east and stay in state 2 
 2 xx*S -> E 2
+# If in state 2 and in the south-eastern corner, stop and change to state 0
 2 xE*S -> X 0
+#If in state 1 and in the north-eastern corner, move west and change to state 0
 1 NExx -> W 0
