@@ -1,1 +1,2 @@
-
+If Picobot is in state 0 and has a wall to the north, and an empty space to the west, it will move to the west and remain in state 0.
+If Picobot is in state 1, and has an empty space to the north and south, it will move to the north and change to state 2. 
