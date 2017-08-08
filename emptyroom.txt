@@ -1,1 +1,9 @@
-
+0 **x* -> W 0   
+0 x*W* -> N 1 
+1 *x** -> E 1   
+1 xE** -> N 0   
+0 NxWx -> X 2
+2 *xWx -> S 2
+2 xx*S -> E 2
+2 xE*S -> X 0
+1 NExx -> W 0
