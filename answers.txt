@@ -3,6 +3,7 @@ What is the difference between the “*” and the “x” in the description of
 Write a Picobot rule that would cause Picobot to crash into a wall (Picobot will report an error if you try this)- 0 N*** -> N 0 
 In the Picobot simulator, what will happen if we replace the “X” in the fourth (i.e., last) starting rule with a W. First try to predict, and then run the simulation to see what happens.     If the X is replaced with a W, the Picobot does not retrace its steps going north. 
 
+In the Picobot simulator, modify the starting rules so that Picobot moves from East to West instead of from North to South.
 0 **x* -> W 0   
 0 **W* -> N 1 
 1 *x** -> E 1   
